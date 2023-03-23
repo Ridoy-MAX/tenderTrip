@@ -948,13 +948,6 @@ background-color: #E8E8E8 !important;
 
 
 
-.footer {
-	background-color: #090748;
-	height: 100px;
-
-	bottom: 0px !important;
-	width: 100%;
-}
 
 .footer h3{
   text-align: center;
@@ -2917,11 +2910,13 @@ color: #000000b3;
   border-radius: 10px;
   width: 100%;
 }
-.coffie_details{
-  padding: 30px;
-  background-color: #02dfcd3d;
-  border-radius: 10px;
-  margin-bottom: 40px;
+.coffie_details {
+	padding: 30px;
+	background-color: #02dfcd00;
+	border-radius: 10px;
+	margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 100px;
 }
 .coffie_details .details h1{
   background: linear-gradient(180.19deg, #090748 0%, #02DFCD 102.03%);
@@ -3031,4 +3026,19 @@ color: #000000b3;
 
 .coffie_details .details .details_one .details_three i{
   margin-right: 5px;
+}
+
+
+.footer {
+  background-color: #090748;
+
+  position: absolute;
+  border: 0;
+
+  width: 100%;
+  height: 100px; 
+
+}
+.footer .container-flid{
+
 }
